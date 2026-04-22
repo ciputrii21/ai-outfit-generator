@@ -45,7 +45,7 @@ app.post("/api/generate", async (req, res) => {
                 },
                 {
                   type: "text",
-                  text: "Kamu adalah fashion stylist profesional. Analisis pakaian dalam gambar ini dan berikan rekomendasi kombinasi outfit yang cocok. Sebutkan: 1) Deskripsi pakaian yang diupload, 2) Warna dan item yang cocok dipadukan, 3) Saran gaya untuk occasion tertentu (casual, formal, date night). Jawab dalam Bahasa Indonesia."
+                  text: "You are a professional fashion stylist. Analyze the clothing in this image and provide outfit combination recommendations. Include: 1) Description of the uploaded clothing, 2) Colors and items that pair well, 3) Style suggestions for specific occasions (casual, formal, date night)."
                 }
               ]
             }
